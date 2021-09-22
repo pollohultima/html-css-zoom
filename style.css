@@ -9,10 +9,6 @@
     display: flex;
 }
 
-body {
-    min-width: 1440px;
-}
-
 /* Header style */
 
 .site_header {
