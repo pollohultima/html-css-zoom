@@ -10,8 +10,7 @@
 }
 
 body {
-    max-width: 1440px;
-    margin: auto;
+    min-width: 1440px;
 }
 
 /* Header style */
@@ -64,10 +63,26 @@ body {
     padding: 46px 10px;
     justify-content: space-between;
     align-items: center;
+    position: relative;
+}
+
+.buttons {
+    position: absolute;
+    top: 25px;
+    right: 10px;
+}
+
+.button {
+    background-image: linear-gradient(to top, #1e1e1e, #3e3e3e);
+    border-radius: 3px;
+    padding: 5px;
+    color: white;
 }
 
 .gallery {
-    margin: 0 15px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    padding: 0 20px;
     color: white;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -75,7 +90,7 @@ body {
 
 .item {
     position: relative;
-    max-width: 260px;
+    width: 350px;
     margin-bottom: 15px;
 }
 
@@ -197,5 +212,6 @@ body {
 
 #move {
     position: absolute;
-    left: 60px;
+    left: 70px;
+    top: 5px;
 }
